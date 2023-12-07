@@ -11,6 +11,6 @@ public class SingletonClass {
     }
 
     public void printHash() {
-        System.out.println(INSTANCE.hashCode());
+        System.out.println(this.hashCode());
     }
 }
